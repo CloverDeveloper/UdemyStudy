@@ -1,0 +1,12 @@
+git init 初始化 git
+git add .
+git commit -m "Data Structures and Algorithms Bootcamp"
+git branch -M main
+git remote add origin https://github.com/CloverDeveloper/UdemyStudy.git
+git push -u origin main
+git push origin master -f
+git filter-branch --tree-filter 'rm -rf C:\Users\Clover\Desktop\UdemyStudy\TDD-Course' HEAD
+git log
+git reset df3a1233b9f2969bbf70840f5025f0bb5ff34465
+git push -f
+ 
